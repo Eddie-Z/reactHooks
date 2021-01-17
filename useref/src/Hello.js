@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useFetch } from "./useFetch";
 
 export const Hello = () => {
