@@ -6,6 +6,12 @@ import { useMeasure } from "./useMeasure";
 /** GET VALUE FROM DOM NODE
  * useLayoutEffect fires synchronously after all DOM mutations.
  *
+ *
+ * To anyone who is struggling to understand the difference between useEffect and useLayoutEffect, it helped me a lot.
+ * useEffect (Component > State Changes > Component Renders > Rendered Component is Printed on Screen > useEffect runs)
+ * useLayoutEffect (Component > State Changes > Component Renders > useLayoutEffect runs > Rendered Component is Printed on Screen)
+ *
+ *
  */
 
 const App = () => {
